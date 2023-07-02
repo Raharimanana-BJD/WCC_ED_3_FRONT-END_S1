@@ -1,0 +1,82 @@
+@font-face {
+  font-family: "WorkSansBold";
+  src: url(../../assets/fonts/WorkSans-Bold.ttf);
+}
+@font-face {
+  font-family: "WorkSansMedium";
+  src: url(../../assets/fonts/WorkSans-Medium.ttf);
+}
+@font-face {
+  font-family: "WorkSansRegular";
+  src: url(../../assets/fonts/WorkSans-Regular.ttf);
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  font-size: var(--fs-body);
+  font-family: "WorkSansRegular";
+  background-color: var(--clr-neutral-100);
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.title {
+  line-height: 1;
+}
+
+main {
+    margin-top: 3.125rem;
+}
+
+main .container {
+    gap: 2rem;
+    align-items: flex-start;
+}
+
+main .container > * {
+   width: 50%;
+}
+
+@media (max-width: 56rem) {
+    main {
+      margin-top: 1.5rem;
+    }
+    main .container {
+        flex-direction: column;
+        gap: 2rem;
+    }
+    main .container > * {
+        width: 100%;
+    }
+}
+
+.star {
+  position: absolute;
+}
+
+.star > img {
+  width: 1.7rem;
+}
+
+h1 {
+    font-family: "WorkSansBold";
+}
+
+.img-arrow-right {
+  margin-top: 4px;
+  transition: .3s ease-in-out;
+}

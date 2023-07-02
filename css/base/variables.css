@@ -1,0 +1,36 @@
+:root {
+  /* colors */
+  --clr-primary: #333333;
+
+  --clr-neutral-100: #ffffff;
+  --clr-neutral-200: #F5F5F5;
+  --clr-neutral-300: #666666;
+
+  --clr-accent-300: #de5644;
+
+  /* font-sizes */
+  --fs-900: 4rem;
+  --fs-800: 3rem;
+  --fs-700: 1.125rem;
+  --fs-600: 1rem;
+  --fs-400: 0.875rem;
+  --fs-300: .75rem;
+
+  --fs-primary-heading: var(--fs-800);
+  --fs-body: var(--fs-400);
+  --fs-btn: var(--fs-600);
+  /* font-weight */
+  --fw-bold: 700;
+  --fw-medium: 600;
+  --fw-regular: 400;
+  /* radius */
+  --radius-300:var(--fs-300);
+}
+
+@media (min-width: 50em) {
+  :root {
+    --fs-primary-heading: var(--fs-900);
+    --fs-body: var(--fs-600);
+    --fs-btn: var(--fs-700);
+  }
+}

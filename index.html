@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/utilities/utilities.css" />
+    <link rel="stylesheet" href="./css/base/reset.css" />
+    <link rel="stylesheet" href="./css/base/variables.css" />
+    <link rel="stylesheet" href="./css/base/basics.css" />
+    <link rel="stylesheet" href="./css/components/animations.css" />
+    <link rel="stylesheet" href="./css/components/linkContent.css" />
+    <link
+      rel="stylesheet"
+      href="./css/components/mobile-navigation-toggler.css"
+    />
+    <link rel="stylesheet" href="./css/components/header.css" />
+    <link rel="stylesheet" href="./css/components/card.css" />
+    <link
+      rel="shortcut icon"
+      href="assets/img/icon-ki8.png"
+      type="image/x-icon"
+    />
+    <title>Kivalo</title>
+  </head>
+  <body>
+    <header class="primary-header">
+      <div class="container flex">
+        <a href="#" class="logo">
+          <div class="desktop-logo">
+            <img src="./assets/img/Ki.png" alt="ki" />
+            <img src="./assets/img/8.png" alt="8" />
+          </div>
+          <div class="mobile-logo">
+            <img src="./assets/img/KI-mobile.png" alt="ki" />
+            <img src="./assets/img/8-mobile.png" alt="8" />
+          </div>
+        </a>
+
+        <div class="mobile-navigation-toggler">
+          <img src="./assets/hamberger.svg" alt="" />
+        </div>
+
+        <nav class="primary-navigation">
+          <ul class="flex">
+            <li>
+              <a href="#">Acceuil</a>
+            </li>
+            <li>
+              <a href="#">Services</a>
+              <div class="link-content">
+                <div class="logos">
+                  <img src="./assets/img/Marofandilia.png" alt="Marofandilia" />
+                </div>
+                <div class="content">
+                  <div class="liste1">
+                    <ul>
+                      <li>Activités</li>
+                      <li>Évenements</li>
+                      <li>Histoire et culture locales</li>
+                    </ul>
+                  </div>
+                  <div class="liste2">
+                    <ul>
+                      <li>Liste des résidents</li>
+                      <li>Registre des incidents</li>
+                      <li>Correspondance et Communications</li>
+                      <li>Plans et documents du quartier</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li><a href="#">À propos</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <div class="container flex">
+        <div class="hero-content | vSpacing">
+          <h1 class="title | text-primary fs-primary-heading fw-bold">
+            Kivalo
+            <span class="star">
+              <img src="./assets/img/Star.png" alt="étoile" />
+            </span>
+          </h1>
+          <p class="text-neutral-300">
+            Kivalo est un petit village à 12 km de vol d'oiseau au nord ouest de
+            Morondava, soit à 50 km de route, en plein ouest de Madagascar et
+            regroupant trois petits villages : Ambato/mer, Ampatiky et Kivalo
+            centre. <br />
+            Le fokontany Kivalo est dans la commune de Marofandilia, District de
+            Morondava et dans la région Menabe. Entre autres, il est délimité au
+            nord par le fokontany Bush, au Sud par le fokontany Kimony avaratra,
+            à l’est par le fokontany Mangily et à l’ouest par le Canal de
+            Mozambique
+          </p>
+          <button class="btn flex" style="gap: 0.5rem">
+            <span>Découvrir Kivalo</span>
+            <img
+              class="img-arrow-right"
+              width="20"
+              src="./assets/img/ArrowRight.png"
+              alt="flèche vers la droite"
+            />
+          </button>
+        </div>
+        <div class="hero-content">
+          <ul class="list-container">
+            <li class="card">
+              <a href="#">
+                <div class="circle-container">
+                  <div class="circle"></div>
+                  <img src="./assets/img/population.png" alt="" />
+                </div>
+                <h2>Population</h2>
+              </a>
+              <ul>
+                <li>1165 habitants</li>
+                <li>Tranche d'âge: 15-40 ans</li>
+                <li>Ethnies: Sakalava, Vezo, Antaimoro</li>
+              </ul>
+            </li>
+            <li class="card">
+              <a href="#">
+                <div class="circle-container">
+                  <div class="circle"></div>
+                  <img src="./assets/img/economie.png" alt="" />
+                </div>
+                <h2>Economie</h2>
+              </a>
+              <ul>
+                <li>Pêche : 62%</li>
+                <li>Commerce : 14%</li>
+                <li>Artisanat : 3%</li>
+              </ul>
+            </li>
+            <li class="card">
+              <a href="#">
+                <div class="circle-container">
+                  <div class="circle"></div>
+                  <img src="./assets/img/health-checkup.png" alt="" />
+                </div>
+                <h2>Santé</h2>
+              </a>
+              <ul>
+                <li>
+                  Pas d'infrastructure médicale, mais des agents de santé formés pour aider la communauté....
+                </li>
+              </ul>
+            </li>
+            <li class="card">
+              <a href="#">
+                <div class="circle-container">
+                  <div class="circle"></div>
+                  <img src="./assets/img/lis.png" alt="" />
+                </div>
+                <h2>Éducation</h2>
+              </a>
+              <ul>
+                <li>
+                  Le fokontany Kivalo a trois EPP (École Primaire Public),
+                  repartis dans les trois village
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
